@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 17px;
+    color: rgb(255, 187, 0);
+    line-height: 1.6;
+}
+
+h1 {
+    padding: 0px;
+    -webkit-text-stroke: 0.5px #262337;
+    font-size: 50px;
+    text-align: center;
+}
+
+#showcase {
+    background-image:url(img/ladning-page.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase h1 {
+    margin-top: 15vh;
+}
